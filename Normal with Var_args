@@ -1,0 +1,19 @@
+public class Main{
+  public static void var_argsMethodwithNormal(int i, String... name){
+    
+    //printing normal method
+    System.out.println(i);
+    /*
+    Printing var args elements
+    */
+    
+    for(String nam: name){
+      System.out.println("name is: "+nam);
+    }
+  }
+  
+  public static void main(String[] args){
+    var_argsMethodwithNormal(10);
+    var_argsMethodwithNormal(10,"Shohrab","Hossain","Kabir");
+  }
+}

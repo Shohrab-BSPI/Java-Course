@@ -1,0 +1,13 @@
+public class Wrong_Varargs{
+  public static void sum(int... n, String name){
+    int total = 0;
+    for(int i: n){
+      total = total+i;
+      System.out.println("Summation is: "+total);
+    }
+  }
+  
+  public static void main(String[] args){
+    sum(10,20,30,"Shohrab");
+  }
+}

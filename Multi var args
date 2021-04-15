@@ -1,6 +1,7 @@
  public class Multi_varargs{
  /*
  only one var args is valid in same method
+ display error: varargs parameter must be the last parameter
  */
   public static void sum(String... name, int... n){
     

@@ -1,4 +1,6 @@
 public class Wrong_Varargs{
+
+//wrong statement for var args method
   public static void sum(int... n, String name){
     int total = 0;
     for(int i: n){
@@ -7,7 +9,26 @@ public class Wrong_Varargs{
     }
   }
   
+  /*
+  Right statement for var args method. we know that during mixing var args parameter should be last.
+  and only one var args method can write.
+  
+  Right code:
+  
+  public static void sum(String name, int... n){
+    System.out.println("Your name is: "+name);
+    
+    int total = 0;
+    for(int i: n){
+      total = total+i;
+      System.out.println("Summation is: "+total);
+    }
+  }
+  
+  */
+  
   public static void main(String[] args){
-    sum(10,20,30,"Shohrab");
+    sum(10,20,30,"Shohrab"); //for wrong code
+   // sum("Shohrab",10,20,30); // for right code
   }
 }

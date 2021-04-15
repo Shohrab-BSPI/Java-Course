@@ -1,0 +1,10 @@
+public class Var_Args{
+	public static void var1(int... i){
+		System.out.println("var1 access");
+	}
+	
+	public static void main(String[] args){
+		var1();
+	}
+	
+}

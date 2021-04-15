@@ -1,0 +1,18 @@
+ public class Multi_varargs{
+  public static void sum(String... name, int... n){
+    
+    for(String nam: name){
+      System.out.println("Your name is: "+nam);
+    }
+    
+    int total = 0;
+    for(int i: n){
+      total = total+i;
+    }
+	System.out.println("Summation is: "+total);
+  }
+  
+  public static void main(String[] args){
+    sum("Shohrab","Kawser","Roman",10,20,30);
+  }
+ }

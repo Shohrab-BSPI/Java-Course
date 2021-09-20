@@ -1,0 +1,13 @@
+com\spring5\practice\config\AppInitializer.class
+com\spring5\practice\controllers\NameController.class
+com\spring5\practice\controllers\RootController.class
+com\spring5\practice\service\UserStoreToDBMS.class
+com\spring5\practice\service\UserService.class
+com\spring5\practice\service\PhoneService.class
+com\spring5\practice\model\User.class
+com\spring5\practice\controllers\PhoneController.class
+com\spring5\practice\config\RootConfig.class
+com\spring5\practice\config\WebMvcConfig.class
+com\spring5\practice\service\NameService.class
+com\spring5\practice\controllers\FormController.class
+com\spring5\practice\controllers\RegistrationController.class
